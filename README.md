@@ -40,4 +40,6 @@ The Jupyter Notebook ```Data.ipynb``` is the main body of the algorithm.
    - **Jupyter Notebook**: Use ```pip install notebook``` to install the jupyter notebook.
       - Run ```jupyter notebook``` to launch the jupyter notebook
 
+## Link to video:
+### https://youtu.be/7a1NmnQafJY
 
