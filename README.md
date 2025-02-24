@@ -1,19 +1,24 @@
 # AI/Machine Learning Intern Challenge: Simple Content-Based Recommendation
 
-**Deadline**: Sunday, Feb 23th 11:59 pm PST
-
 ---
 
 ## Overview
 
-Build a **content-based recommendation system** that, given a **short text description** of a user’s preferences, suggests **similar items** (e.g., movies) from a small dataset. This challenge should take about **3 hours**, so keep your solution **simple** yet **functional**.
+This model uses a **TF-IDF** algorithm and cosine similarity algorithm for content-based recommendation on a movie dataset. The raw data is obtained from *movies.csv* from https://www.kaggle.com/datasets/harshshinde8/movies-csv. (Apache 2.0 lisense). The input is a short text description, provided by the user, and the output is the list of 5 most similar movies from the dataset.
 
 ### Example Use Case
 
 - The user inputs:  
   *"I love thrilling action movies set in space, with a comedic twist."*  
-- Your system processes this description (query) and compares it to a dataset of items (e.g., movies with their plot summaries or keywords).  
-- You then return the **top 3–5 “closest” matches** to the user.
+- The system outputs:
+|    | original_title                 | similarity | overview                                                                                     |
+|----|--------------------------------|------------|----------------------------------------------------------------------------------------------|
+|3720| My Big Fat Independent Movie   | 0.183612   | This film is a spoof along the lines of 'Scary Movie' ...                                    |
+|4380| Clean                          | 0.182749   | After losing her husband to a heroin overdose, ...                                           |
+|3350| Jackass: The Movie            | 0.160794   | Johnny Knoxville and his crazy friends engage in various stunts ...                          |
+|1040| Scary Movie 2                 | 0.133903   | While the original parodied slasher flicks like 'Scream' ...                                 |
+|2390| Arn: Tempelriddaren           | 0.085616   | Arn, the son of a high-ranking Swedish nobleman, is sent to a monastery ...                  |
+
 
 ---
 
