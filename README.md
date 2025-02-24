@@ -38,6 +38,6 @@ The Jupyter Notebook ```Data.ipynb``` is the main body of the algorithm.
    - You may run ```pip install -r requirements.txt``` to install the relevant packages. 
       - Alternatively, run ```!pip install -r requirements.txt``` in the first cell of the Jupyter Notebook.
    - **Jupyter Notebook**: Use ```pip install notebook``` to install the jupyter notebook.
-      -Run ```jupyter notebook``` to launch the jupyter notebook
+      - Run ```jupyter notebook``` to launch the jupyter notebook
 
 
